@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-container {
+    background: linear-gradient(to bottom,white,#283c5e,#1a2a44);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+.books-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.login-form {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.login-form h2 {
+    font-size: 32px;
+    color:#1a2a44;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.login-form p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 14px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 20px;
+    color: #1a2a44;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 5px solid #1a2a44;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #2e4a7a;
+}
+
+.login-form button {
+    width: 50%;
+    padding: 16px;
+    background-color: #1a2a44;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    justify-content: left;
+}
+.login-form button a{
+    text-decoration: none;
+    color: white;
+}
+.or-text {
+    font-size: 14px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.social-login {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    padding: 10px;
+}
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
